@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import google.generativeai as genai
 
 # 제미나이 API 키 설정
-genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+genai.configure(api_key=st.secrets["AIzaSyACRyarhB_C3U4sz4aBC8O3V7UM-0I1JWw"])
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 st.title("📰 나만의 AI 데스킹 룸")
